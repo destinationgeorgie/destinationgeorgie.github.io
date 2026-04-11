@@ -19,42 +19,42 @@
     a { text-decoration: none; color: inherit; }
 
     /* TOPBAR */
-    .topbar { background: var(--noir); color: rgba(255,255,255,0.7); font-size:0.78rem; letter-spacing:0.05em; padding:0.5rem 3rem; display:flex; justify-content:space-between; align-items:center; }
-    .topbar a { color: var(--or); transition:color 0.2s; }
+    .topbar { background: var(--noir); color: rgba(255,255,255,0.7); font-size:.78rem; letter-spacing:.05em; padding:.5rem 3rem; display:flex; justify-content:space-between; align-items:center; }
+    .topbar a { color: var(--or); transition:color .2s; }
     .topbar a:hover { color: var(--or-light); }
 
     /* NAV */
-    nav { position:sticky; top:0; z-index:999; background:var(--blanc); border-bottom:3px solid var(--or); display:flex; align-items:center; justify-content:space-between; padding:0 2.5rem; box-shadow:0 2px 20px rgba(0,0,0,0.07); animation:slideDown 0.6s ease both; }
-    .nav-logo { display:flex; align-items:center; gap:0.8rem; padding:0.9rem 0; }
+    nav { position:sticky; top:0; z-index:999; background:var(--blanc); border-bottom:3px solid var(--or); display:flex; align-items:center; justify-content:space-between; padding:0 2.5rem; box-shadow:0 2px 20px rgba(0,0,0,.07); animation:slideDown .6s ease both; }
+    .nav-logo { display:flex; align-items:center; gap:.8rem; padding:.9rem 0; }
     .nav-logo-icon { width:46px; height:46px; background:var(--rouge); border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-size:1.3rem; font-weight:700; color:#fff; flex-shrink:0; }
     .nav-logo-text strong { font-family:'Playfair Display',serif; font-size:1.2rem; font-weight:700; color:var(--noir); display:block; line-height:1.1; }
-    .nav-logo-text span { font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--rouge); }
+    .nav-logo-text span { font-size:.68rem; letter-spacing:.18em; text-transform:uppercase; color:var(--rouge); }
     .nav-links { display:flex; list-style:none; }
-    .nav-links li a { display:block; padding:1.4rem 1rem; font-size:0.8rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--gris-moyen); transition:color 0.2s; border-bottom:3px solid transparent; margin-bottom:-3px; }
+    .nav-links li a { display:block; padding:1.4rem 1rem; font-size:.8rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gris-moyen); transition:color .2s; border-bottom:3px solid transparent; margin-bottom:-3px; }
     .nav-links li a:hover, .nav-links li a.active { color:var(--rouge); border-bottom-color:var(--rouge); }
-    .nav-cta { background:var(--rouge) !important; color:var(--blanc) !important; border-radius:3px; border-bottom:none !important; padding:0.55rem 1.2rem !important; margin-left:0.5rem; }
+    .nav-cta { background:var(--rouge) !important; color:var(--blanc) !important; border-radius:3px; border-bottom:none !important; padding:.55rem 1.2rem !important; margin-left:.5rem; }
     .nav-cta:hover { background:var(--rouge-dark) !important; }
 
     /* HERO */
     .hero { position:relative; height:92vh; min-height:580px; display:flex; align-items:center; overflow:hidden; }
-    .hero-bg { position:absolute; inset:0; background: linear-gradient(135deg,rgba(26,26,26,0.75) 0%,rgba(192,57,43,0.3) 100%), url('https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1800&q=80') center/cover no-repeat; animation:zoomIn 8s ease both; }
-    .hero-content { position:relative; z-index:2; max-width:760px; padding:0 5rem; animation:fadeUp 1s 0.3s ease both; }
-    .hero-badge { display:inline-block; background:var(--or); color:var(--noir); font-size:0.72rem; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; padding:0.4rem 1rem; border-radius:2px; margin-bottom:1.5rem; }
+    .hero-bg { position:absolute; inset:0; background:linear-gradient(135deg,rgba(26,26,26,.75) 0%,rgba(192,57,43,.3) 100%),url('https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1800&q=80') center/cover no-repeat; animation:zoomIn 8s ease both; }
+    .hero-content { position:relative; z-index:2; max-width:760px; padding:0 5rem; animation:fadeUp 1s .3s ease both; }
+    .hero-badge { display:inline-block; background:var(--or); color:var(--noir); font-size:.72rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; padding:.4rem 1rem; border-radius:2px; margin-bottom:1.5rem; }
     .hero h1 { font-size:clamp(2.5rem,5vw,4rem); font-weight:700; line-height:1.08; color:#fff; margin-bottom:1.2rem; }
     .hero h1 em { color:var(--or); font-style:italic; }
-    .hero p { font-size:1.08rem; line-height:1.8; color:rgba(255,255,255,0.88); max-width:540px; margin-bottom:2rem; font-weight:300; }
+    .hero p { font-size:1.08rem; line-height:1.8; color:rgba(255,255,255,.88); max-width:540px; margin-bottom:2rem; font-weight:300; }
     .hero-btns { display:flex; gap:1rem; flex-wrap:wrap; }
-    .btn-primary { background:var(--rouge); color:#fff; padding:0.85rem 1.8rem; border-radius:3px; font-size:0.85rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; transition:background 0.25s,transform 0.2s; display:inline-block; }
+    .btn-primary { background:var(--rouge); color:#fff; padding:.85rem 1.8rem; border-radius:3px; font-size:.85rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; transition:background .25s,transform .2s; display:inline-block; }
     .btn-primary:hover { background:var(--rouge-dark); transform:translateY(-2px); }
-    .btn-outline { border:2px solid rgba(255,255,255,0.7); color:#fff; padding:0.85rem 1.8rem; border-radius:3px; font-size:0.85rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; transition:border-color 0.25s,background 0.25s; display:inline-block; }
-    .btn-outline:hover { border-color:var(--or); background:rgba(212,168,83,0.12); }
-    .hero-scroll { position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:rgba(255,255,255,0.6); font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; display:flex; flex-direction:column; align-items:center; gap:0.4rem; animation:bounce 2s infinite; }
+    .btn-outline { border:2px solid rgba(255,255,255,.7); color:#fff; padding:.85rem 1.8rem; border-radius:3px; font-size:.85rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; transition:border-color .25s,background .25s; display:inline-block; }
+    .btn-outline:hover { border-color:var(--or); background:rgba(212,168,83,.12); }
+    .hero-scroll { position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); color:rgba(255,255,255,.6); font-size:.7rem; letter-spacing:.15em; text-transform:uppercase; display:flex; flex-direction:column; align-items:center; gap:.4rem; animation:bounce 2s infinite; }
     .hero-scroll::after { content:'↓'; font-size:1.2rem; color:var(--or); }
 
     /* SECTIONS */
     section { padding:5rem 3rem; }
     .section-inner { max-width:1200px; margin:0 auto; }
-    .section-label { font-size:0.72rem; font-weight:700; letter-spacing:0.22em; text-transform:uppercase; color:var(--rouge); margin-bottom:0.7rem; }
+    .section-label { font-size:.72rem; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--rouge); margin-bottom:.7rem; }
     .section-title { font-size:clamp(1.9rem,3.5vw,2.7rem); font-weight:700; line-height:1.15; color:var(--noir); margin-bottom:1rem; }
     .section-title em { color:var(--rouge); font-style:italic; }
     .section-subtitle { font-size:1rem; line-height:1.8; color:var(--gris-moyen); max-width:660px; }
@@ -65,72 +65,119 @@
     .stats-inner { max-width:1200px; margin:0 auto; display:flex; justify-content:space-around; flex-wrap:wrap; gap:1.5rem; }
     .stat-item { text-align:center; color:#fff; }
     .stat-number { font-family:'Playfair Display',serif; font-size:2.6rem; font-weight:700; color:var(--or-light); line-height:1; }
-    .stat-label { font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase; opacity:0.85; margin-top:0.3rem; }
+    .stat-label { font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; opacity:.85; margin-top:.3rem; }
 
     /* POURQUOI */
     #pourquoi { background:var(--gris-clair); }
     .atouts-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.8rem; margin-top:2.5rem; }
-    .atout-card { background:var(--blanc); border-left:4px solid var(--or); padding:1.6rem; border-radius:0 4px 4px 0; transition:box-shadow 0.25s,transform 0.2s; }
-    .atout-card:hover { box-shadow:0 8px 30px rgba(0,0,0,0.09); transform:translateY(-4px); }
-    .atout-icon { font-size:1.9rem; margin-bottom:0.8rem; }
-    .atout-card h3 { font-size:1.05rem; font-weight:700; margin-bottom:0.5rem; color:var(--noir); }
-    .atout-card p { font-size:0.9rem; line-height:1.65; color:var(--gris-moyen); }
+    .atout-card { background:var(--blanc); border-left:4px solid var(--or); padding:1.6rem; border-radius:0 4px 4px 0; transition:box-shadow .25s,transform .2s; }
+    .atout-card:hover { box-shadow:0 8px 30px rgba(0,0,0,.09); transform:translateY(-4px); }
+    .atout-icon { font-size:1.9rem; margin-bottom:.8rem; }
+    .atout-card h3 { font-size:1.05rem; font-weight:700; margin-bottom:.5rem; color:var(--noir); }
+    .atout-card p { font-size:.9rem; line-height:1.65; color:var(--gris-moyen); }
 
     /* GÉORGIE */
     #georgie { background:var(--blanc); }
     .georgie-grid { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; margin-top:2rem; }
     .georgie-img-wrap { position:relative; }
     .georgie-img-wrap img { width:100%; border-radius:4px; object-fit:cover; height:400px; display:block; }
-    .georgie-img-badge { position:absolute; bottom:-1rem; right:-1rem; background:var(--rouge); color:#fff; padding:0.9rem 1.2rem; font-family:'Playfair Display',serif; font-size:0.88rem; font-style:italic; border-radius:4px; box-shadow:0 4px 16px rgba(0,0,0,0.2); }
-    .infos-pratiques { margin-top:2rem; display:grid; grid-template-columns:1fr 1fr; gap:0.9rem; }
-    .info-item { background:var(--gris-clair); padding:0.9rem 1.1rem; border-radius:4px; border-top:3px solid var(--or); }
-    .info-item strong { display:block; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--rouge); margin-bottom:0.2rem; }
-    .info-item span { font-size:0.9rem; color:var(--gris-fonce); }
+    .georgie-img-badge { position:absolute; bottom:-1rem; right:-1rem; background:var(--rouge); color:#fff; padding:.9rem 1.2rem; font-family:'Playfair Display',serif; font-size:.88rem; font-style:italic; border-radius:4px; box-shadow:0 4px 16px rgba(0,0,0,.2); }
+    .infos-pratiques { margin-top:2rem; display:grid; grid-template-columns:1fr 1fr; gap:.9rem; }
+    .info-item { background:var(--gris-clair); padding:.9rem 1.1rem; border-radius:4px; border-top:3px solid var(--or); }
+    .info-item strong { display:block; font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--rouge); margin-bottom:.2rem; }
+    .info-item span { font-size:.9rem; color:var(--gris-fonce); }
 
-    /* RÉGIONS */
+    /* ── RÉGIONS ── */
     #regions { background:var(--gris-clair); }
     .regions-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:1.4rem; margin-top:2.5rem; }
-    .region-card { position:relative; border-radius:6px; overflow:hidden; height:300px; cursor:pointer; }
-    .region-card img { width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease; }
+    .region-card { position:relative; border-radius:6px; overflow:hidden; height:320px; cursor:pointer; }
+    .region-card img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
     .region-card:hover img { transform:scale(1.08); }
-    .region-overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(26,26,26,0.88) 0%,rgba(26,26,26,0.05) 60%); display:flex; flex-direction:column; justify-content:flex-end; padding:1.4rem; }
-    .region-card h3 { color:#fff; font-size:1.35rem; font-weight:700; margin-bottom:0.35rem; }
-    .region-card p { color:rgba(255,255,255,0.82); font-size:0.86rem; line-height:1.5; }
-    .region-tag { display:inline-block; background:var(--or); color:var(--noir); font-size:0.62rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; padding:0.2rem 0.55rem; border-radius:2px; margin-bottom:0.5rem; align-self:flex-start; }
+    .region-overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(26,26,26,.9) 0%,rgba(26,26,26,.05) 60%); display:flex; flex-direction:column; justify-content:flex-end; padding:1.4rem; }
+    .region-card h3 { color:#fff; font-size:1.35rem; font-weight:700; margin-bottom:.35rem; }
+    .region-card p { color:rgba(255,255,255,.82); font-size:.86rem; line-height:1.5; }
+    .region-tag { display:inline-block; background:var(--or); color:var(--noir); font-size:.62rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; padding:.2rem .55rem; border-radius:2px; margin-bottom:.5rem; align-self:flex-start; }
+    .region-btn { display:inline-block; margin-top:.8rem; background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.5); color:#fff; font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:.4rem .9rem; border-radius:3px; cursor:pointer; transition:background .2s,border-color .2s; }
+    .region-btn:hover { background:var(--rouge); border-color:var(--rouge); }
 
-    /* BLOG */
+    /* ── MODAL RÉGION ── */
+    .modal-overlay { position:fixed; inset:0; z-index:2000; background:rgba(0,0,0,.75); display:flex; align-items:center; justify-content:center; padding:1.5rem; opacity:0; pointer-events:none; transition:opacity .3s; }
+    .modal-overlay.open { opacity:1; pointer-events:all; }
+    .modal { background:var(--blanc); border-radius:8px; max-width:860px; width:100%; max-height:92vh; overflow-y:auto; position:relative; animation:modalIn .35s ease; }
+    @keyframes modalIn { from{transform:translateY(30px);opacity:0} to{transform:translateY(0);opacity:1} }
+    .modal-hero { position:relative; height:300px; overflow:hidden; border-radius:8px 8px 0 0; }
+    .modal-hero img { width:100%; height:100%; object-fit:cover; }
+    .modal-hero-overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(26,26,26,.75) 0%,transparent 50%); }
+    .modal-hero-title { position:absolute; bottom:1.5rem; left:2rem; color:#fff; }
+    .modal-hero-title .region-tag { margin-bottom:.5rem; }
+    .modal-hero-title h2 { font-size:2rem; font-weight:700; }
+    .modal-close { position:absolute; top:1rem; right:1rem; background:rgba(0,0,0,.5); color:#fff; border:none; width:36px; height:36px; border-radius:50%; font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background .2s; z-index:10; }
+    .modal-close:hover { background:var(--rouge); }
+    .modal-body { padding:2rem; }
+    .modal-body h3 { font-size:1.3rem; color:var(--noir); margin:1.5rem 0 .7rem; }
+    .modal-body h3:first-child { margin-top:0; }
+    .modal-body p { font-size:.95rem; line-height:1.85; color:var(--gris-moyen); margin-bottom:1rem; }
+    .modal-highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:.8rem; margin:1.2rem 0; }
+    .modal-highlight { background:var(--gris-clair); border-left:3px solid var(--or); padding:.9rem 1rem; border-radius:0 4px 4px 0; }
+    .modal-highlight strong { display:block; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--rouge); margin-bottom:.3rem; }
+    .modal-highlight span { font-size:.9rem; color:var(--gris-fonce); }
+    .modal-incontournables { margin:1rem 0; }
+    .modal-incontournables li { font-size:.92rem; color:var(--gris-moyen); line-height:1.7; padding-left:1.2rem; position:relative; }
+    .modal-incontournables li::before { content:'✦'; color:var(--or); position:absolute; left:0; font-size:.65rem; top:.2rem; }
+
+    /* ── BLOG ── */
     #blog { background:var(--blanc); }
-    .blog-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:2rem; margin-top:2.5rem; }
-    .blog-card { border:1px solid #E8E4DE; border-radius:6px; overflow:hidden; transition:box-shadow 0.3s,transform 0.2s; }
-    .blog-card:hover { box-shadow:0 12px 40px rgba(0,0,0,0.1); transform:translateY(-4px); }
-    .blog-card-img { height:195px; overflow:hidden; }
-    .blog-card-img img { width:100%; height:100%; object-fit:cover; transition:transform 0.5s; }
+    .blog-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:2rem; margin-top:2.5rem; }
+    .blog-card { border:1px solid #E8E4DE; border-radius:6px; overflow:hidden; transition:box-shadow .3s,transform .2s; }
+    .blog-card:hover { box-shadow:0 12px 40px rgba(0,0,0,.1); transform:translateY(-4px); }
+    .blog-card-img { height:210px; overflow:hidden; }
+    .blog-card-img img { width:100%; height:100%; object-fit:cover; transition:transform .5s; }
     .blog-card:hover .blog-card-img img { transform:scale(1.06); }
-    .blog-card-body { padding:1.4rem; }
-    .blog-cat { font-size:0.68rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--rouge); margin-bottom:0.5rem; }
-    .blog-card-body h3 { font-size:1.08rem; font-weight:700; color:var(--noir); margin-bottom:0.5rem; line-height:1.35; }
-    .blog-card-body p { font-size:0.88rem; line-height:1.65; color:var(--gris-moyen); margin-bottom:0.9rem; }
-    .blog-meta { font-size:0.76rem; color:#999; border-top:1px solid #F0EDE8; padding-top:0.7rem; }
-    .btn-link { display:inline-block; font-size:0.78rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--rouge); border-bottom:2px solid var(--or); padding-bottom:2px; transition:color 0.2s; }
+    .blog-card-body { padding:1.5rem; }
+    .blog-cat { font-size:.68rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--rouge); margin-bottom:.5rem; }
+    .blog-card-body h3 { font-size:1.1rem; font-weight:700; color:var(--noir); margin-bottom:.5rem; line-height:1.35; }
+    .blog-card-body p { font-size:.88rem; line-height:1.65; color:var(--gris-moyen); margin-bottom:.9rem; }
+    .blog-meta { font-size:.76rem; color:#999; border-top:1px solid #F0EDE8; padding-top:.7rem; display:flex; justify-content:space-between; align-items:center; }
+    .btn-link { display:inline-block; font-size:.78rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--rouge); border-bottom:2px solid var(--or); padding-bottom:2px; transition:color .2s; cursor:pointer; }
     .btn-link:hover { color:var(--rouge-dark); }
+
+    /* ── MODAL BLOG ── */
+    .blog-modal-overlay { position:fixed; inset:0; z-index:2000; background:rgba(0,0,0,.8); display:flex; align-items:flex-start; justify-content:center; padding:2rem 1.5rem; overflow-y:auto; opacity:0; pointer-events:none; transition:opacity .3s; }
+    .blog-modal-overlay.open { opacity:1; pointer-events:all; }
+    .blog-modal { background:var(--blanc); border-radius:8px; max-width:800px; width:100%; position:relative; animation:modalIn .35s ease; margin:auto; }
+    .blog-modal-hero { height:320px; overflow:hidden; border-radius:8px 8px 0 0; position:relative; }
+    .blog-modal-hero img { width:100%; height:100%; object-fit:cover; }
+    .blog-modal-hero-overlay { position:absolute; inset:0; background:linear-gradient(to top,rgba(26,26,26,.7) 0%,transparent 50%); }
+    .blog-modal-hero .modal-close { position:absolute; top:1rem; right:1rem; }
+    .blog-modal-body { padding:2.5rem; }
+    .blog-modal-meta { display:flex; gap:1.5rem; align-items:center; flex-wrap:wrap; margin-bottom:1.5rem; padding-bottom:1.2rem; border-bottom:2px solid var(--gris-clair); }
+    .blog-modal-body h1 { font-size:1.9rem; font-weight:700; color:var(--noir); line-height:1.2; margin-bottom:1rem; }
+    .blog-modal-body h2 { font-size:1.3rem; font-weight:700; color:var(--noir); margin:2rem 0 .8rem; border-left:4px solid var(--or); padding-left:1rem; }
+    .blog-modal-body h3 { font-size:1.1rem; font-weight:700; color:var(--rouge); margin:1.5rem 0 .6rem; }
+    .blog-modal-body p { font-size:.97rem; line-height:1.9; color:var(--gris-moyen); margin-bottom:1.1rem; }
+    .blog-modal-body ul, .blog-modal-body ol { margin:.5rem 0 1rem 1.5rem; }
+    .blog-modal-body li { font-size:.95rem; line-height:1.75; color:var(--gris-moyen); margin-bottom:.4rem; }
+    .blog-tip { background:var(--gris-clair); border-left:4px solid var(--or); padding:1.2rem 1.4rem; border-radius:0 6px 6px 0; margin:1.5rem 0; }
+    .blog-tip strong { color:var(--rouge); font-size:.82rem; letter-spacing:.08em; text-transform:uppercase; display:block; margin-bottom:.4rem; }
+    .blog-tip p { font-size:.9rem; margin:0; }
 
     /* RÉSEAUX */
     #reseaux { background:var(--noir); padding:5rem 3rem; }
     #reseaux .section-title { color:#fff; }
-    #reseaux .section-subtitle { color:rgba(255,255,255,0.6); }
+    #reseaux .section-subtitle { color:rgba(255,255,255,.6); }
     #reseaux .divider { background:var(--or); }
     .social-cards { display:flex; flex-wrap:wrap; gap:1.2rem; margin-top:2.5rem; }
-    .social-card { flex:1; min-width:170px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:8px; padding:1.8rem 1.4rem; text-align:center; transition:background 0.3s,transform 0.2s,border-color 0.3s; cursor:pointer; }
-    .social-card:hover { background:rgba(255,255,255,0.11); transform:translateY(-4px); border-color:var(--or); }
-    .social-icon { font-size:2rem; margin-bottom:0.7rem; }
-    .social-card h3 { color:#fff; font-size:1rem; margin-bottom:0.35rem; }
-    .social-card p { color:rgba(255,255,255,0.55); font-size:0.82rem; line-height:1.5; }
-    .social-handle { display:inline-block; margin-top:0.7rem; color:var(--or); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; }
-    .insta-feed { display:grid; grid-template-columns:repeat(6,1fr); gap:0.4rem; margin-top:2rem; border-radius:6px; overflow:hidden; }
+    .social-card { flex:1; min-width:170px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1); border-radius:8px; padding:1.8rem 1.4rem; text-align:center; transition:background .3s,transform .2s,border-color .3s; cursor:pointer; }
+    .social-card:hover { background:rgba(255,255,255,.11); transform:translateY(-4px); border-color:var(--or); }
+    .social-icon { font-size:2rem; margin-bottom:.7rem; }
+    .social-card h3 { color:#fff; font-size:1rem; margin-bottom:.35rem; }
+    .social-card p { color:rgba(255,255,255,.55); font-size:.82rem; line-height:1.5; }
+    .social-handle { display:inline-block; margin-top:.7rem; color:var(--or); font-size:.78rem; font-weight:700; letter-spacing:.08em; }
+    .insta-feed { display:grid; grid-template-columns:repeat(6,1fr); gap:.4rem; margin-top:2rem; border-radius:6px; overflow:hidden; }
     .insta-item { aspect-ratio:1; overflow:hidden; position:relative; }
-    .insta-item img { width:100%; height:100%; object-fit:cover; transition:transform 0.4s; }
+    .insta-item img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
     .insta-item:hover img { transform:scale(1.1); }
-    .insta-overlay { position:absolute; inset:0; background:rgba(192,57,43,0.55); display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity 0.3s; color:#fff; font-size:1.2rem; }
+    .insta-overlay { position:absolute; inset:0; background:rgba(192,57,43,.55); display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity .3s; color:#fff; font-size:1.2rem; }
     .insta-item:hover .insta-overlay { opacity:1; }
 
     /* À PROPOS */
@@ -140,10 +187,10 @@
     .apropos-img img { width:100%; border-radius:4px; object-fit:cover; height:480px; }
     .apropos-deco { position:absolute; top:-1.4rem; left:-1.4rem; width:100%; height:100%; border:3px solid var(--or); border-radius:4px; z-index:-1; }
     .engagements { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1.8rem; }
-    .engagement-item { display:flex; gap:0.7rem; align-items:flex-start; }
-    .engagement-icon { color:var(--or); font-size:1.2rem; flex-shrink:0; margin-top:0.1rem; }
-    .engagement-item h4 { font-size:0.9rem; font-weight:700; color:var(--noir); margin-bottom:0.2rem; }
-    .engagement-item p { font-size:0.82rem; color:var(--gris-moyen); line-height:1.5; }
+    .engagement-item { display:flex; gap:.7rem; align-items:flex-start; }
+    .engagement-icon { color:var(--or); font-size:1.2rem; flex-shrink:0; margin-top:.1rem; }
+    .engagement-item h4 { font-size:.9rem; font-weight:700; color:var(--noir); margin-bottom:.2rem; }
+    .engagement-item p { font-size:.82rem; color:var(--gris-moyen); line-height:1.5; }
 
     /* CONTACT */
     #contact { background:var(--blanc); }
@@ -151,44 +198,44 @@
     .contact-info h3 { font-size:1.35rem; color:var(--noir); margin-bottom:1.4rem; }
     .contact-detail { display:flex; align-items:flex-start; gap:1rem; margin-bottom:1.2rem; }
     .contact-detail-icon { width:38px; height:38px; flex-shrink:0; background:var(--gris-clair); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1rem; color:var(--rouge); }
-    .contact-detail-text strong { display:block; font-size:0.75rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--rouge); margin-bottom:0.2rem; }
-    .contact-detail-text span { font-size:0.9rem; color:var(--gris-fonce); }
+    .contact-detail-text strong { display:block; font-size:.75rem; letter-spacing:.1em; text-transform:uppercase; color:var(--rouge); margin-bottom:.2rem; }
+    .contact-detail-text span { font-size:.9rem; color:var(--gris-fonce); }
     .contact-form-wrap { background:var(--gris-clair); border-radius:6px; padding:2.2rem; border-top:4px solid var(--rouge); }
     .contact-form-wrap h3 { font-size:1.25rem; margin-bottom:1.4rem; color:var(--noir); }
     .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
     .form-group { margin-bottom:1.1rem; }
-    .form-group label { display:block; font-size:0.76rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--gris-moyen); margin-bottom:0.35rem; }
-    .form-group input, .form-group select, .form-group textarea { width:100%; padding:0.7rem 0.9rem; border:1.5px solid #DDD; border-radius:3px; font-family:'Lato',sans-serif; font-size:0.9rem; background:var(--blanc); color:var(--gris-fonce); transition:border-color 0.2s; outline:none; }
+    .form-group label { display:block; font-size:.76rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--gris-moyen); margin-bottom:.35rem; }
+    .form-group input, .form-group select, .form-group textarea { width:100%; padding:.7rem .9rem; border:1.5px solid #DDD; border-radius:3px; font-family:'Lato',sans-serif; font-size:.9rem; background:var(--blanc); color:var(--gris-fonce); transition:border-color .2s; outline:none; }
     .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color:var(--rouge); }
     .form-group textarea { resize:vertical; min-height:100px; }
-    .form-submit { width:100%; background:var(--rouge); color:#fff; border:none; cursor:pointer; padding:0.95rem; font-family:'Lato',sans-serif; font-size:0.88rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; border-radius:3px; transition:background 0.25s,transform 0.2s; }
+    .form-submit { width:100%; background:var(--rouge); color:#fff; border:none; cursor:pointer; padding:.95rem; font-family:'Lato',sans-serif; font-size:.88rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; border-radius:3px; transition:background .25s,transform .2s; }
     .form-submit:hover { background:var(--rouge-dark); transform:translateY(-2px); }
-    .form-note { font-size:0.76rem; color:var(--gris-moyen); margin-top:0.7rem; text-align:center; }
+    .form-note { font-size:.76rem; color:var(--gris-moyen); margin-top:.7rem; text-align:center; }
 
     /* FOOTER */
-    footer { background:var(--gris-fonce); color:rgba(255,255,255,0.65); padding:3.5rem 3rem 1.5rem; }
-    .footer-grid { max-width:1200px; margin:0 auto; display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:2.5rem; padding-bottom:2.5rem; border-bottom:1px solid rgba(255,255,255,0.1); }
-    .footer-brand p { font-size:0.86rem; line-height:1.7; margin-top:0.8rem; color:rgba(255,255,255,0.5); }
-    .footer-col h4 { color:var(--or); font-size:0.76rem; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:1rem; }
+    footer { background:var(--gris-fonce); color:rgba(255,255,255,.65); padding:3.5rem 3rem 1.5rem; }
+    .footer-grid { max-width:1200px; margin:0 auto; display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:2.5rem; padding-bottom:2.5rem; border-bottom:1px solid rgba(255,255,255,.1); }
+    .footer-brand p { font-size:.86rem; line-height:1.7; margin-top:.8rem; color:rgba(255,255,255,.5); }
+    .footer-col h4 { color:var(--or); font-size:.76rem; letter-spacing:.15em; text-transform:uppercase; margin-bottom:1rem; }
     .footer-col ul { list-style:none; }
-    .footer-col ul li { margin-bottom:0.5rem; }
-    .footer-col ul li a { font-size:0.86rem; color:rgba(255,255,255,0.55); transition:color 0.2s; }
+    .footer-col ul li { margin-bottom:.5rem; }
+    .footer-col ul li a { font-size:.86rem; color:rgba(255,255,255,.55); transition:color .2s; }
     .footer-col ul li a:hover { color:var(--or); }
-    .footer-social { display:flex; gap:0.6rem; margin-top:1rem; }
-    .footer-social a { width:34px; height:34px; background:rgba(255,255,255,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; color:rgba(255,255,255,0.7); transition:background 0.2s,color 0.2s; }
+    .footer-social { display:flex; gap:.6rem; margin-top:1rem; }
+    .footer-social a { width:34px; height:34px; background:rgba(255,255,255,.1); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.85rem; color:rgba(255,255,255,.7); transition:background .2s,color .2s; }
     .footer-social a:hover { background:var(--rouge); color:#fff; }
-    .footer-bottom { max-width:1200px; margin:1.5rem auto 0; display:flex; justify-content:space-between; flex-wrap:wrap; gap:0.8rem; font-size:0.76rem; color:rgba(255,255,255,0.38); }
+    .footer-bottom { max-width:1200px; margin:1.5rem auto 0; display:flex; justify-content:space-between; flex-wrap:wrap; gap:.8rem; font-size:.76rem; color:rgba(255,255,255,.38); }
 
     /* TOAST */
-    .toast { position:fixed; bottom:2rem; right:2rem; z-index:9999; background:var(--noir); color:#fff; padding:1rem 1.5rem; border-radius:4px; border-left:4px solid var(--or); font-size:0.9rem; transform:translateX(120%); transition:transform 0.4s ease; box-shadow:0 8px 30px rgba(0,0,0,0.3); }
+    .toast { position:fixed; bottom:2rem; right:2rem; z-index:9999; background:var(--noir); color:#fff; padding:1rem 1.5rem; border-radius:4px; border-left:4px solid var(--or); font-size:.9rem; transform:translateX(120%); transition:transform .4s ease; box-shadow:0 8px 30px rgba(0,0,0,.3); }
     .toast.show { transform:translateX(0); }
 
     /* ANIMATIONS */
     @keyframes slideDown { from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)} }
-    @keyframes fadeUp    { from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)} }
-    @keyframes zoomIn    { from{transform:scale(1.08)}to{transform:scale(1)} }
-    @keyframes bounce    { 0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)} }
-    .reveal { opacity:0; transform:translateY(28px); transition:opacity 0.7s ease,transform 0.7s ease; }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)} }
+    @keyframes zoomIn { from{transform:scale(1.08)}to{transform:scale(1)} }
+    @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)} }
+    .reveal { opacity:0; transform:translateY(28px); transition:opacity .7s ease,transform .7s ease; }
     .reveal.visible { opacity:1; transform:translateY(0); }
 
     /* MOBILE */
@@ -199,6 +246,11 @@
       .footer-grid{grid-template-columns:1fr 1fr;}
       .insta-feed{grid-template-columns:repeat(3,1fr);}
       .form-row{grid-template-columns:1fr;}
+      .modal-highlights{grid-template-columns:1fr 1fr;}
+    }
+    @media(max-width:600px){
+      .blog-modal-body{padding:1.5rem;}
+      .modal-body{padding:1.4rem;}
     }
   </style>
 </head>
@@ -208,9 +260,9 @@
 <div class="topbar">
   <span>📍 Tbilissi, Géorgie &nbsp;|&nbsp; <a href="mailto:contact@destination-georgie.com">contact@destination-georgie.com</a> &nbsp;|&nbsp; <a href="tel:+99532000000">+995 32 XXX XX XX</a></span>
   <span>
-    <a href="#" title="Facebook" style="margin-left:1rem;">Facebook</a>
-    <a href="#" title="Instagram" style="margin-left:1rem;">Instagram</a>
-    <a href="#" title="LinkedIn" style="margin-left:1rem;">LinkedIn</a>
+    <a href="#" style="margin-left:1rem;">Facebook</a>
+    <a href="#" style="margin-left:1rem;">Instagram</a>
+    <a href="#" style="margin-left:1rem;">LinkedIn</a>
   </span>
 </div>
 
@@ -266,7 +318,7 @@
       <div class="section-label">Pourquoi nous choisir</div>
       <h2 class="section-title">Votre <em>partenaire DMC</em><br>de référence en Géorgie</h2>
       <div class="divider"></div>
-      <p class="section-subtitle">Destination Géorgie est une agence réceptive 100 % francophone, basée à Tbilissi, spécialisée dans la conception de circuits culturels et haut de gamme à destination des professionnels du tourisme français.</p>
+      <p class="section-subtitle">Destination Géorgie est une agence réceptive 100 % francophone, basée à Tbilissi, spécialisée dans la conception de circuits culturels et haut de gamme pour les professionnels du tourisme français.</p>
     </div>
     <div class="atouts-grid reveal">
       <div class="atout-card"><div class="atout-icon">🗺️</div><h3>Expertise Locale</h3><p>Notre équipe vit et respire la Géorgie au quotidien. Une connaissance intime du terrain, des prestataires et des trésors cachés du pays.</p></div>
@@ -294,8 +346,7 @@
       </div>
       <div>
         <p style="line-height:1.9;color:var(--gris-moyen);margin-bottom:1.2rem;">Nichée entre l'Europe et l'Asie, la Géorgie est l'une des destinations les plus fascinantes et les plus méconnues du monde. Berceau de l'une des plus anciennes cultures chrétiennes, elle offre un patrimoine historique et architectural d'une richesse exceptionnelle : monastères perchés sur des falaises, tours médiévales, palais royaux et vieilles villes classées à l'UNESCO.</p>
-        <p style="line-height:1.9;color:var(--gris-moyen);margin-bottom:1.2rem;">Ses paysages sont tout aussi spectaculaires : des sommets enneigés du Grand Caucase aux plages de la mer Noire, en passant par les vallées viticoles de la Kakhétie — berceau du vin depuis 8 000 ans — et les gorges vertigineuses de la Géorgie centrale.</p>
-        <p style="line-height:1.9;color:var(--gris-moyen);">Sa gastronomie généreuse, son hospitalité légendaire et son art de vivre authentique en font une destination idéale pour un tourisme culturel et expérientiel de qualité.</p>
+        <p style="line-height:1.9;color:var(--gris-moyen);margin-bottom:1.2rem;">Ses paysages sont tout aussi spectaculaires : des sommets enneigés du Grand Caucase aux plages de la mer Noire, en passant par les vallées viticoles de la Kakhétie — berceau du vin depuis 8 000 ans — et les gorges vertigineuses de la Géorgie centrale. La gastronomie généreuse, l'hospitalité légendaire et l'art de vivre authentique en font une destination idéale pour un tourisme culturel haut de gamme.</p>
         <div class="infos-pratiques">
           <div class="info-item"><strong>Capitale</strong><span>Tbilissi</span></div>
           <div class="info-item"><strong>Langue officielle</strong><span>Géorgien (ქართული)</span></div>
@@ -311,45 +362,88 @@
   </div>
 </section>
 
-<!-- RÉGIONS -->
+<!-- ══════════════ RÉGIONS ══════════════ -->
 <section id="regions">
   <div class="section-inner">
     <div class="reveal">
       <div class="section-label">Explorer</div>
       <h2 class="section-title">Les <em>régions incontournables</em><br>de Géorgie</h2>
       <div class="divider"></div>
-      <p class="section-subtitle">De la capitale cosmopolite aux villages caucasiens isolés, chaque région offre une expérience unique et mémorable.</p>
+      <p class="section-subtitle">Cliquez sur une région pour découvrir ses incontournables, ses informations pratiques et ses secrets bien gardés.</p>
     </div>
     <div class="regions-grid reveal">
-      <div class="region-card">
+
+      <!-- Tbilissi -->
+      <div class="region-card" onclick="openRegion('tbilissi')">
         <img src="https://images.unsplash.com/photo-1565266042989-4c8c4f97e0bb?w=700&q=80" alt="Tbilissi"/>
-        <div class="region-overlay"><span class="region-tag">Culture & Histoire</span><h3>Tbilissi</h3><p>Capitale millénaire aux ruelles de brique, bains sulfureux et scène artistique vibrante.</p></div>
+        <div class="region-overlay">
+          <span class="region-tag">Culture & Histoire</span>
+          <h3>Tbilissi</h3>
+          <p>La perle du Caucase : vieille ville, bains sulfureux, forteresse de Narikala et scène artistique vibrante.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
-      <div class="region-card">
-        <img src="https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=700&q=80" alt="Kakhétie"/>
-        <div class="region-overlay"><span class="region-tag">Vin & Gastronomie</span><h3>Kakhétie</h3><p>Berceau du vin depuis 8 000 ans, vallées de vignes et monastères UNESCO.</p></div>
+
+      <!-- Kakhétie -->
+      <div class="region-card" onclick="openRegion('kakhetie')">
+        <img src="https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=700&q=80" alt="Kakhétie vignobles"/>
+        <div class="region-overlay">
+          <span class="region-tag">Vin & Gastronomie</span>
+          <h3>Kakhétie</h3>
+          <p>Berceau mondial du vin depuis 8 000 ans, vallées de vignes, monastères UNESCO et hospitalité légendaire.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
-      <div class="region-card">
-        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80" alt="Kazbegi"/>
-        <div class="region-overlay"><span class="region-tag">Montagne & Nature</span><h3>Kazbegi & Caucase</h3><p>Sommets à 5 000 m, l'église Guerguéti et des panoramas à couper le souffle.</p></div>
+
+      <!-- Kazbegi -->
+      <div class="region-card" onclick="openRegion('kazbegi')">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80" alt="Kazbegi montagnes"/>
+        <div class="region-overlay">
+          <span class="region-tag">Montagne & Nature</span>
+          <h3>Kazbegi & Caucase</h3>
+          <p>L'église de Guerguéti perchée à 2 170 m face au mont Kazbek (5 047 m) : l'un des panoramas les plus saisissants d'Europe.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
-      <div class="region-card">
+
+      <!-- Mtskhéta -->
+      <div class="region-card" onclick="openRegion('mtsketa')">
         <img src="https://images.unsplash.com/photo-1578657062025-f3e56e8e01e8?w=700&q=80" alt="Mtskhéta"/>
-        <div class="region-overlay"><span class="region-tag">Patrimoine UNESCO</span><h3>Mtskhéta</h3><p>Ancienne capitale royale, carrefour spirituel et cœur historique de la Géorgie.</p></div>
+        <div class="region-overlay">
+          <span class="region-tag">Patrimoine UNESCO</span>
+          <h3>Mtskhéta</h3>
+          <p>Ancienne capitale du royaume d'Ibérie et cœur spirituel de la Géorgie, à seulement 20 km de Tbilissi.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
-      <div class="region-card">
-        <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=700&q=80" alt="Svanétie"/>
-        <div class="region-overlay"><span class="region-tag">Aventure & Isolement</span><h3>Svanétie</h3><p>Tours médiévales mystérieuses, villages hors du temps perchés dans les nuages.</p></div>
+
+      <!-- Svanétie -->
+      <div class="region-card" onclick="openRegion('svanetie')">
+        <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=700&q=80" alt="Svanétie tours"/>
+        <div class="region-overlay">
+          <span class="region-tag">Aventure & Isolement</span>
+          <h3>Svanétie</h3>
+          <p>Tours médiévales mystérieuses, village d'Ouchgouli à 2 200 m d'altitude, inscrit au patrimoine mondial de l'UNESCO.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
-      <div class="region-card">
-        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700&q=80" alt="Batoumi"/>
-        <div class="region-overlay"><span class="region-tag">Mer Noire & Modernité</span><h3>Adjarie & Batoumi</h3><p>Architecture avant-gardiste, plages de la mer Noire et forêts subtropicales.</p></div>
+
+      <!-- Adjarie -->
+      <div class="region-card" onclick="openRegion('adjarie')">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700&q=80" alt="Batoumi mer Noire"/>
+        <div class="region-overlay">
+          <span class="region-tag">Mer Noire & Modernité</span>
+          <h3>Adjarie & Batoumi</h3>
+          <p>Architecture avant-gardiste en bord de mer Noire, gastronomie adjare et forêts subtropicales aux portes de la Turquie.</p>
+          <span class="region-btn">Découvrir →</span>
+        </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- BLOG -->
+<!-- ══════════════ BLOG ══════════════ -->
 <section id="blog">
   <div class="section-inner">
     <div class="reveal">
@@ -359,36 +453,49 @@
       <p class="section-subtitle">Inspirations, conseils pratiques et coulisses de nos voyages pour mieux préparer vos programmes clients.</p>
     </div>
     <div class="blog-grid reveal">
+
+      <!-- Article 1 -->
       <div class="blog-card">
-        <div class="blog-card-img"><img src="https://images.unsplash.com/photo-1555990538-1e8f3e4f0200?w=600&q=80" alt="Tbilissi"/></div>
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1555990538-1e8f3e4f0200?w=600&q=80" alt="Tbilissi vieille ville"/>
+        </div>
         <div class="blog-card-body">
           <div class="blog-cat">🏛️ Culture & Patrimoine</div>
-          <h3>Tbilissi en 3 jours : l'itinéraire culturel idéal</h3>
-          <p>De la vieille ville à Metekhi, en passant par les bains de Abanotubani et le musée national — notre guide pour une immersion complète dans la capitale.</p>
-          <a href="#" class="btn-link">Lire l'article →</a>
-          <div class="blog-meta">📅 Mars 2025 · 8 min de lecture</div>
+          <h3>Tbilissi en 3 jours : l'itinéraire culturel idéal pour vos clients</h3>
+          <p>De la forteresse de Narikala aux bains sulfureux d'Abanotubani, en passant par le pont de la Paix et le musée national — notre guide complet pour une immersion totale dans la capitale géorgienne.</p>
+          <span class="btn-link" onclick="openBlog('tbilissi3j')">Lire l'article →</span>
+          <div class="blog-meta"><span>📅 Mars 2025</span><span>⏱ 8 min</span></div>
         </div>
       </div>
+
+      <!-- Article 2 -->
       <div class="blog-card">
-        <div class="blog-card-img"><img src="https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=600&q=80" alt="Kakhétie"/></div>
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=600&q=80" alt="Kakhétie vignobles"/>
+        </div>
         <div class="blog-card-body">
           <div class="blog-cat">🍷 Œnotourisme</div>
-          <h3>La Kakhétie, paradis mondial du vin en amphore</h3>
-          <p>La Géorgie est le plus vieux vignoble du monde. Découvrez les domaines incontournables, la vinification en qvevri et les meilleurs accords mets-vins.</p>
-          <a href="#" class="btn-link">Lire l'article →</a>
-          <div class="blog-meta">📅 Février 2025 · 10 min de lecture</div>
+          <h3>La Kakhétie, paradis mondial du vin en amphore (qvevri)</h3>
+          <p>La Géorgie est le plus vieux vignoble du monde. Domaines incontournables, vinification en qvevri, Sighnaghi la romantique et les meilleurs accords gastronomiques de la région.</p>
+          <span class="btn-link" onclick="openBlog('kakhetievin')">Lire l'article →</span>
+          <div class="blog-meta"><span>📅 Février 2025</span><span>⏱ 10 min</span></div>
         </div>
       </div>
+
+      <!-- Article 3 -->
       <div class="blog-card">
-        <div class="blog-card-img"><img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Kazbegi"/></div>
+        <div class="blog-card-img">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Kazbegi église Guerguéti"/>
+        </div>
         <div class="blog-card-body">
           <div class="blog-cat">⛰️ Nature & Aventure</div>
-          <h3>Kazbegi : au pied du mont Kazbek avec vos groupes</h3>
-          <p>Routes militaires, église de Guerguéti à 2 170 m, hébergements de charme : tout ce qu'il faut savoir pour organiser un séjour mémorable dans le Caucase.</p>
-          <a href="#" class="btn-link">Lire l'article →</a>
-          <div class="blog-meta">📅 Janvier 2025 · 7 min de lecture</div>
+          <h3>Kazbegi : organiser un séjour au pied du Grand Caucase</h3>
+          <p>Route Militaire Géorgienne, église de Guerguéti à 2 170 m face au Kazbek, vallée de Trusso et hébergements de charme : tout ce qu'il faut savoir pour proposer un séjour mémorable.</p>
+          <span class="btn-link" onclick="openBlog('kazbegi')">Lire l'article →</span>
+          <div class="blog-meta"><span>📅 Janvier 2025</span><span>⏱ 9 min</span></div>
         </div>
       </div>
+
     </div>
     <div style="text-align:center;margin-top:2.5rem;" class="reveal">
       <a href="#" class="btn-primary">Voir tous les articles</a>
@@ -406,10 +513,10 @@
       <p class="section-subtitle">Retrouvez nos inspirations, coulisses et actualités sur nos réseaux sociaux.</p>
     </div>
     <div class="social-cards reveal">
-      <a href="#" class="social-card"><div class="social-icon">📷</div><h3>Instagram</h3><p>Photos et vidéos de Géorgie, coulisses de nos voyages, inspirations visuelles.</p><span class="social-handle">@destinationgeorgie</span></a>
-      <a href="#" class="social-card"><div class="social-icon">📘</div><h3>Facebook</h3><p>Actualités, articles de blog, événements et échanges avec notre communauté.</p><span class="social-handle">Destination Géorgie</span></a>
-      <a href="#" class="social-card"><div class="social-icon">💼</div><h3>LinkedIn</h3><p>Actualités professionnelles, partenariats B2B et actualités du secteur touristique.</p><span class="social-handle">Destination Géorgie DMC</span></a>
-      <a href="#" class="social-card"><div class="social-icon">▶️</div><h3>YouTube</h3><p>Films de voyage, reportages et immersions vidéo au cœur de la Géorgie.</p><span class="social-handle">Destination Géorgie</span></a>
+      <a href="#" class="social-card"><div class="social-icon">📷</div><h3>Instagram</h3><p>Photos et vidéos de Géorgie, coulisses de nos voyages, inspirations visuelles au quotidien.</p><span class="social-handle">@destinationgeorgie</span></a>
+      <a href="#" class="social-card"><div class="social-icon">📘</div><h3>Facebook</h3><p>Actualités, articles de blog, événements et échanges avec notre communauté de voyageurs.</p><span class="social-handle">Destination Géorgie</span></a>
+      <a href="#" class="social-card"><div class="social-icon">💼</div><h3>LinkedIn</h3><p>Actualités professionnelles, partenariats B2B et tendances du secteur touristique.</p><span class="social-handle">Destination Géorgie DMC</span></a>
+      <a href="#" class="social-card"><div class="social-icon">▶️</div><h3>YouTube</h3><p>Films de voyage, reportages et immersions vidéo au cœur de la Géorgie authentique.</p><span class="social-handle">Destination Géorgie</span></a>
     </div>
     <div class="insta-feed reveal">
       <div class="insta-item"><img src="https://images.unsplash.com/photo-1565008576549-57569a49371d?w=300&q=70" alt=""/><div class="insta-overlay">📷</div></div>
@@ -438,7 +545,7 @@
         <p style="line-height:1.9;color:var(--gris-moyen);margin-bottom:1.8rem;">Grâce à notre réseau local de guides experts, d'hôtels de charme et de prestataires soigneusement sélectionnés, nous concevons des programmes sur mesure alliant culture, gastronomie, patrimoine et immersion humaine — dans le respect des traditions géorgiennes et des exigences de la clientèle haut de gamme francophone.</p>
         <div class="engagements">
           <div class="engagement-item"><span class="engagement-icon">✅</span><div><h4>Guides certifiés</h4><p>Tous nos guides parlent français couramment et sont diplômés.</p></div></div>
-          <div class="engagement-item"><span class="engagement-icon">✅</span><div><h4>Hébergements sélectionnés</h4><p>Hôtels de charme et boutique-hôtels triés sur le volet.</p></div></div>
+          <div class="engagement-item"><span class="engagement-icon">✅</span><div><h4>Hébergements sélectionnés</h4><p>Boutique-hôtels et maisons de charme triés sur le volet.</p></div></div>
           <div class="engagement-item"><span class="engagement-icon">✅</span><div><h4>Véhicules premium</h4><p>Flotte confortable et climatisée avec chauffeurs professionnels.</p></div></div>
           <div class="engagement-item"><span class="engagement-icon">✅</span><div><h4>Tarifs nets B2B</h4><p>Grille tarifaire nette dédiée aux agences partenaires, sans surprise.</p></div></div>
         </div>
@@ -459,25 +566,13 @@
     <div class="contact-grid reveal">
       <div class="contact-info">
         <h3>Nos coordonnées</h3>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">📍</div>
-          <div class="contact-detail-text"><strong>Adresse</strong><span>Tbilissi, Géorgie<br>Rue Rustaveli, 1er arrondissement</span></div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">📞</div>
-          <div class="contact-detail-text"><strong>Téléphone / WhatsApp</strong><span>+995 32 XXX XX XX</span></div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">✉️</div>
-          <div class="contact-detail-text"><strong>Email professionnel</strong><span>contact@destination-georgie.com</span></div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">🕐</div>
-          <div class="contact-detail-text"><strong>Horaires (heure locale)</strong><span>Lun – Sam : 9h00 – 18h00 (UTC+4)<br>Urgences 24h/24</span></div>
-        </div>
+        <div class="contact-detail"><div class="contact-detail-icon">📍</div><div class="contact-detail-text"><strong>Adresse</strong><span>Tbilissi, Géorgie</span></div></div>
+        <div class="contact-detail"><div class="contact-detail-icon">📞</div><div class="contact-detail-text"><strong>Téléphone / WhatsApp</strong><span>+995 32 XXX XX XX</span></div></div>
+        <div class="contact-detail"><div class="contact-detail-icon">✉️</div><div class="contact-detail-text"><strong>Email professionnel</strong><span>contact@destination-georgie.com</span></div></div>
+        <div class="contact-detail"><div class="contact-detail-icon">🕐</div><div class="contact-detail-text"><strong>Horaires (heure locale)</strong><span>Lun – Sam : 9h00 – 18h00 (UTC+4)</span></div></div>
         <div style="margin-top:1.8rem;padding:1.4rem;background:var(--gris-clair);border-radius:6px;border-left:4px solid var(--or);">
-          <strong style="font-size:0.84rem;color:var(--noir);">📋 Informations pour agences partenaires</strong>
-          <p style="font-size:0.84rem;color:var(--gris-moyen);margin-top:0.4rem;line-height:1.65;">Nous travaillons exclusivement en B2B avec les agences de voyage, tour-opérateurs et organisateurs MICE. Merci de mentionner le nom de votre agence dans votre demande.</p>
+          <strong style="font-size:.84rem;color:var(--noir);">📋 Réservé aux professionnels</strong>
+          <p style="font-size:.84rem;color:var(--gris-moyen);margin-top:.4rem;line-height:1.65;">Nous travaillons exclusivement en B2B avec les agences de voyage, tour-opérateurs et organisateurs MICE. Merci de mentionner le nom de votre agence.</p>
         </div>
       </div>
       <div class="contact-form-wrap">
@@ -486,13 +581,13 @@
           <div class="form-group"><label>Prénom *</label><input type="text" placeholder="Jean"/></div>
           <div class="form-group"><label>Nom *</label><input type="text" placeholder="Dupont"/></div>
         </div>
-        <div class="form-group"><label>Agence / Société *</label><input type="text" placeholder="Nom de votre agence de voyage"/></div>
+        <div class="form-group"><label>Agence / Société *</label><input type="text" placeholder="Nom de votre agence"/></div>
         <div class="form-row">
           <div class="form-group"><label>Email *</label><input type="email" placeholder="jean@agence.fr"/></div>
           <div class="form-group"><label>Téléphone</label><input type="tel" placeholder="+33 6 XX XX XX XX"/></div>
         </div>
         <div class="form-row">
-          <div class="form-group"><label>Période souhaitée</label><input type="text" placeholder="Ex : Mai 2025"/></div>
+          <div class="form-group"><label>Période souhaitée</label><input type="text" placeholder="Ex : Mai 2026"/></div>
           <div class="form-group"><label>Nombre de pax</label><input type="number" placeholder="Ex : 12"/></div>
         </div>
         <div class="form-group">
@@ -518,19 +613,16 @@
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <div style="display:flex;align-items:center;gap:0.8rem;">
+      <div style="display:flex;align-items:center;gap:.8rem;">
         <div style="width:40px;height:40px;background:var(--rouge);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#fff;flex-shrink:0;">DG</div>
         <div>
           <strong style="font-family:'Playfair Display',serif;font-size:1.05rem;color:#fff;display:block;line-height:1.1;">Destination Géorgie</strong>
-          <span style="font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--or);">DMC Francophone · Tbilissi</span>
+          <span style="font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--or);">DMC Francophone · Tbilissi</span>
         </div>
       </div>
       <p>Votre partenaire réceptif de confiance en Géorgie. Circuits culturels et haut de gamme pour agences françaises depuis Tbilissi.</p>
       <div class="footer-social">
-        <a href="#" title="Facebook">f</a>
-        <a href="#" title="Instagram">📷</a>
-        <a href="#" title="LinkedIn">in</a>
-        <a href="#" title="YouTube">▶</a>
+        <a href="#">f</a><a href="#">📷</a><a href="#">in</a><a href="#">▶</a>
       </div>
     </div>
     <div class="footer-col">
@@ -547,12 +639,12 @@
     <div class="footer-col">
       <h4>Régions</h4>
       <ul>
-        <li><a href="#">Tbilissi</a></li>
-        <li><a href="#">Kakhétie</a></li>
-        <li><a href="#">Kazbegi</a></li>
-        <li><a href="#">Mtskhéta</a></li>
-        <li><a href="#">Svanétie</a></li>
-        <li><a href="#">Adjarie</a></li>
+        <li><a href="#" onclick="openRegion('tbilissi');return false;">Tbilissi</a></li>
+        <li><a href="#" onclick="openRegion('kakhetie');return false;">Kakhétie</a></li>
+        <li><a href="#" onclick="openRegion('kazbegi');return false;">Kazbegi</a></li>
+        <li><a href="#" onclick="openRegion('mtsketa');return false;">Mtskhéta</a></li>
+        <li><a href="#" onclick="openRegion('svanetie');return false;">Svanétie</a></li>
+        <li><a href="#" onclick="openRegion('adjarie');return false;">Adjarie</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -566,33 +658,424 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 Destination Géorgie · DMC Francophone en Géorgie · Tous droits réservés</span>
+    <span>© 2025 Destination Géorgie · DMC Francophone · Tbilissi, Géorgie · Tous droits réservés</span>
     <span>Politique de confidentialité · Mentions légales · CGV</span>
   </div>
 </footer>
 
+<!-- ══════ MODALS RÉGIONS ══════ -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModals(event)">
+  <div class="modal" id="region-modal">
+    <button class="modal-close" onclick="closeAllModals()">✕</button>
+    <div class="modal-hero">
+      <img id="region-modal-img" src="" alt=""/>
+      <div class="modal-hero-overlay"></div>
+      <div class="modal-hero-title">
+        <span class="region-tag" id="region-modal-tag"></span>
+        <h2 id="region-modal-title"></h2>
+      </div>
+    </div>
+    <div class="modal-body" id="region-modal-body"></div>
+  </div>
+</div>
+
+<!-- ══════ MODALS BLOG ══════ -->
+<div class="blog-modal-overlay" id="blog-modal-overlay" onclick="closeBlogModal(event)">
+  <div class="blog-modal" id="blog-modal">
+    <div class="blog-modal-hero">
+      <img id="blog-modal-img" src="" alt=""/>
+      <div class="blog-modal-hero-overlay"></div>
+      <button class="modal-close" onclick="closeAllModals()">✕</button>
+    </div>
+    <div class="blog-modal-body" id="blog-modal-body"></div>
+  </div>
+</div>
+
 <div class="toast" id="toast">✅ Message envoyé ! Nous vous répondrons sous 24h ouvrées.</div>
 
 <script>
-  const reveals = document.querySelectorAll('.reveal');
-  const obs = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => { if(e.isIntersecting) setTimeout(()=>e.target.classList.add('visible'), i*80); });
-  }, {threshold:0.1});
-  reveals.forEach(el => obs.observe(el));
+// ────────────────────────────────────────────────
+// DATA RÉGIONS
+// ────────────────────────────────────────────────
+const regions = {
+  tbilissi: {
+    tag: "Culture & Histoire",
+    title: "Tbilissi",
+    img: "https://images.unsplash.com/photo-1565266042989-4c8c4f97e0bb?w=1200&q=85",
+    body: `
+      <h3>Une capitale entre Orient et Occident</h3>
+      <p>Tbilissi, dont le nom signifie « chaud » en géorgien — en référence aux sources thermales sulfureuses qui ont présidé à sa fondation au V<sup>e</sup> siècle — est l'une des capitales les plus singulières d'Europe. Perchée sur les rives du fleuve Mtkvari et dominée par la forteresse de Narikala, la ville déploie un visage radicalement contrasté : ruelles pavées de la vieille ville aux balcons de bois sculpté, coupoles d'église orthodoxe, synagogues, mosquées et cathédrales catholiques côte à côte, architectures soviétiques et structures ultramodernes. Depuis l'Antiquité, Tbilissi occupe un carrefour stratégique entre l'Europe et l'Asie, ce qui lui a valu heurs et malheurs, mais aussi des développements culturels et commerciaux exceptionnels.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>La vieille ville (Dzveli Tbilisi)</strong> — Dédale de rues pavées, cours intérieures fleuries, maisons à balcons de bois ouvragé. Le quartier historique qui a conservé malgré les siècles son âme pittoresque.</li>
+          <li><strong>Le quartier d'Abanotubani</strong> — Les célèbres bains sulfureux aux dômes en brique, dont l'Orbeliani Bathhouse à la façade mosaïque de style perse, véritable icône de la ville.</li>
+          <li><strong>La forteresse de Narikala</strong> — Remparts du IV<sup>e</sup> siècle dominant la vieille ville, accessible en téléphérique depuis le parc Rikhe. Vue panoramique exceptionnelle sur Tbilissi.</li>
+          <li><strong>La cathédrale Sameba</strong> — Troisième plus grande cathédrale orthodoxe du monde, symbole de la renaissance géorgienne post-soviétique, inaugurée en 2004.</li>
+          <li><strong>L'église Metekhi</strong> — Nichée au sommet d'une falaise surplombant le fleuve, ce joyau du XIII<sup>e</sup> siècle offre l'un des plus beaux points de vue de la capitale.</li>
+          <li><strong>Le pont de la Paix</strong> — Structure futuriste en verre et acier inaugurée en 2010 par l'architecte Michele De Lucchi, illuminée la nuit par des milliers de LED.</li>
+          <li><strong>Le mont Mtatsminda</strong> — Accessible par le funiculaire historique (1905), ce parc offre une vue à 360° sur la ville et abrite le panthéon où reposent les grands personnages géorgiens.</li>
+          <li><strong>Le musée national de Géorgie</strong> — Remarquable collection retraçant 8 000 ans d'histoire géorgienne, dont le célèbre trésor d'or.</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Paris</strong><span>~4h de vol (Air France, direct)</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Avril–juin / Septembre–novembre</span></div>
+        <div class="modal-highlight"><strong>À ne pas manquer</strong><span>Supra géorgien, bains sulfureux</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>3 à 4 nuits minimum</span></div>
+        <div class="modal-highlight"><strong>Style</strong><span>Hôtels boutique en vieille ville</span></div>
+        <div class="modal-highlight"><strong>Gastronomie</strong><span>Khinkali, khachapuri, vins naturels</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>Réservez vos clients dans la vieille ville ou le quartier de Sololaki — à pied de toutes les attractions majeures. Le marché des antiquités du Pont Sec, le dimanche matin, est une expérience incontournable.</p></div>`
+  },
 
-  const sections = document.querySelectorAll('section[id]');
-  const links = document.querySelectorAll('.nav-links a');
-  window.addEventListener('scroll', () => {
-    let cur = '';
-    sections.forEach(s => { if(window.scrollY >= s.offsetTop - 120) cur = s.id; });
-    links.forEach(a => { a.classList.remove('active'); if(a.getAttribute('href')==='#'+cur) a.classList.add('active'); });
-  });
+  kakhetie: {
+    tag: "Vin & Gastronomie",
+    title: "Kakhétie",
+    img: "https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=1200&q=85",
+    body: `
+      <h3>Le berceau mondial du vin</h3>
+      <p>La Kakhétie est la région administrative la plus orientale de la Géorgie moderne et l'une de ses provinces historiques les plus emblématiques. Sa capitale est Telavi. Bordée au nord par la chaîne du Grand Caucase et à l'est par l'Azerbaïdjan, cette vaste région de vallées fertiles et de plaines viticoles est unanimement reconnue comme le berceau mondial de la viticulture : les archéologues ont mis au jour des traces de vinification remontant à plus de 8 000 ans avant notre ère. Plusieurs centaines de cépages différents y sont encore cultivés aujourd'hui, et la vinification en grands jarres de terre cuite enfouies dans le sol — les <em>qvevri</em> — y est perpétuée comme à l'époque gréco-romaine, désormais inscrite au patrimoine immatériel de l'UNESCO.</p>
+      <p>La Kakhétie, c'est aussi une région de monastères millénaires, de forteresses médiévales et de supra légendaires — ces grands banquets géorgiens orchestrés par le tamada (maître de table) au son des chants polyphoniques.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>Sighnaghi, la ville d'amour</strong> — Petite ville perchée sur ses remparts du XVIII<sup>e</sup> siècle, avec une vue imprenable sur la plaine de l'Alazani et le Caucase. Idéale pour un séjour romantique haut de gamme.</li>
+          <li><strong>Le monastère Sainte-Nino de Bodbe</strong> — Lieu de pèlerinage majeur où repose sainte Nino, évangélisatrice de la Géorgie au IV<sup>e</sup> siècle. Atmosphère spirituelle rare.</li>
+          <li><strong>La cathédrale Alaverdi</strong> — Impressionnante basilique du XI<sup>e</sup> siècle au cœur des vignobles, l'une des plus hautes d'architecture médiévale géorgienne.</li>
+          <li><strong>Telavi et le palais du roi Erekle II</strong> — Capitale de la Kakhétie, city-trip dans un marché animé et visite du palais du dernier roi géorgien (XVIII<sup>e</sup> siècle).</li>
+          <li><strong>Château de Gremi</strong> — Forteresse royale du XVI<sup>e</sup> siècle dominant la plaine, ancienne capitale du royaume de Kakhétie.</li>
+          <li><strong>Dégustation en qvevri</strong> — Visites de domaines familiaux et de marani (caves à vin) pour découvrir les grands vins naturels géorgiens : Rkatsiteli, Saperavi, Mtsvane.</li>
+          <li><strong>La Réserve de Vachlovani</strong> — Paysages semi-désertiques spectaculaires au sud de la Kakhétie, aux confins de l'Azerbaïdjan.</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Tbilissi</strong><span>95 km / environ 2h de route</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Sept.–oct. (vendanges / Rtveli)</span></div>
+        <div class="modal-highlight"><strong>Cépages emblématiques</strong><span>Rkatsiteli, Saperavi, Mtsvane</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>2 à 3 nuits minimum</span></div>
+        <div class="modal-highlight"><strong>Style hébergement</strong><span>Maisons de vignerons, guesthouses</span></div>
+        <div class="modal-highlight"><strong>Spécialité culinaire</strong><span>Khashlama, chakapuli, churchkhela</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>La saison des vendanges (mi-septembre à mi-octobre) est la période idéale pour une immersion totale : participation aux récoltes, pressage traditionnel au pied nu, supra kakhétien au coucher de soleil sur les vignes. Un moment inoubliable pour vos clients haut de gamme.</p></div>`
+  },
 
-  function submitForm() {
-    const t = document.getElementById('toast');
-    t.classList.add('show');
-    setTimeout(()=>t.classList.remove('show'), 4000);
+  kazbegi: {
+    tag: "Montagne & Nature",
+    title: "Kazbegi & Grand Caucase",
+    img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=85",
+    body: `
+      <h3>Au sommet du Caucase</h3>
+      <p>Kazbegi, officiellement connue sous le nom de Stepantsminda, est le symbole absolu de la haute montagne géorgienne. Perchée à 1 744 mètres d'altitude dans la vallée de la Térek, cette petite ville est dominée par le mont Kazbek qui culmine à 5 047 mètres. La route pour y parvenir — la mythique Route Militaire Géorgienne, tracée par les Russes au XIX<sup>e</sup> siècle — traverse des paysages époustouflants : cols enneigés, gorges vertigineuses, forts médiévaux en ruines et villages accrochés aux flancs des montagnes. C'est l'une des plus belles routes de montagne au monde.</p>
+      <p>Au-dessus de la ville, l'église de la Trinité de Guerguéti (Tsminda Sameba) trône seule à 2 170 mètres d'altitude, sur un éperon rocheux face au Kazbek enneigé. Cette image — sans doute la plus photographiée de Géorgie — est devenue le symbole du pays tout entier.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>L'église Guerguéti (Tsminda Sameba)</strong> — Randonnée de 3h aller-retour depuis la ville (ou accès en 4x4) jusqu'à cette église du XIV<sup>e</sup> siècle dont la silhouette face au Kazbek est inoubliable.</li>
+          <li><strong>La Route Militaire Géorgienne</strong> — Trajet spectaculaire depuis Tbilissi : forteresse d'Ananouri sur le lac de Jinvali, arche d'amitié russo-géorgienne (point de vue unique) et col du Jvari.</li>
+          <li><strong>La vallée de Trusso</strong> — Vallée d'altitude sauvage aux sources minérales colorées par les minéraux, villages abandonnés et paysages lunaires d'une beauté saisissante.</li>
+          <li><strong>Juta et Chaukhi</strong> — Pour les randonneurs, ces vallées offrent certains des plus beaux paysages alpins de Géorgie, face aux aiguilles de Chaukhi évoquant les Dolomites.</li>
+          <li><strong>Goudaouri</strong> — Station de ski moderne (60 km de pistes, 1 990 – 3 279 m) sur le chemin du retour, accessible pour une nuit hors-saison ou pour des clients amateurs de sports d'hiver.</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Tbilissi</strong><span>150 km / environ 3h de route</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Mai–octobre (route fermée en hiver)</span></div>
+        <div class="modal-highlight"><strong>Altitude ville</strong><span>1 744 m (église à 2 170 m)</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>2 nuits minimum</span></div>
+        <div class="modal-highlight"><strong>Style hébergement</strong><span>Petits hôtels de montagne, guesthouses</span></div>
+        <div class="modal-highlight"><strong>Activités</strong><span>Randonnée, 4x4, photographie, ski</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>Prévoyez systématiquement 2 nuits à Kazbegi pour vos clients : la première journée pour la montée à l'église Guerguéti, la seconde pour la vallée de Trusso ou une randonnée vers Juta. L'hébergement en guesthouse familiale garantit une immersion authentique très appréciée de la clientèle haut de gamme.</p></div>`
+  },
+
+  mtsketa: {
+    tag: "Patrimoine UNESCO",
+    title: "Mtskhéta",
+    img: "https://images.unsplash.com/photo-1578657062025-f3e56e8e01e8?w=1200&q=85",
+    body: `
+      <h3>Le cœur spirituel de la Géorgie</h3>
+      <p>Située à seulement 20 kilomètres au nord de Tbilissi, Mtskhéta est l'une des plus anciennes villes de Géorgie et demeure le centre spirituel de la nation. Ancienne capitale du royaume d'Ibérie (environ III<sup>e</sup> siècle av. J.-C. – V<sup>e</sup> siècle ap. J.-C.), la ville a conservé un patrimoine architectural et religieux d'une exceptionnelle valeur. Ses monuments historiques figurent sur la Liste du patrimoine mondial de l'UNESCO depuis 1994.</p>
+      <p>C'est à Mtskhéta que sainte Nino, venue de Cappadoce au IV<sup>e</sup> siècle, convertit le roi Mirian III au christianisme, faisant de la Géorgie l'un des premiers pays chrétiens au monde. La ville vit encore au rythme des pèlerinages et des cérémonies orthodoxes qui rythment le calendrier géorgien.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>La cathédrale Svétitskhovéli (UNESCO)</strong> — Joyau du XI<sup>e</sup> siècle, l'une des plus belles cathédrales d'architecture médiévale géorgienne. La légende dit que la robe du Christ repose sous ses fondations, d'où son nom : « la colonne vivifiante ».</li>
+          <li><strong>Le monastère de Djvari (UNESCO)</strong> — Perché sur une colline, ce monastère du VI<sup>e</sup> siècle offre une vue incomparable sur la confluence des fleuves Mtkvari et Aragvi, à l'exacte jonction de deux vallées. Chef-d'œuvre de l'architecture religieuse médiévale géorgienne.</li>
+          <li><strong>Le monastère de Samtavro</strong> — Couvent actif fondé au IV<sup>e</sup> siècle, lieu de recueillement et de pèlerinage où sont enterrés le roi Mirian et la reine Nana, premiers souverains chrétiens de Géorgie.</li>
+          <li><strong>Le centre-ville historique</strong> — Ruelles médiévales, ateliers d'artisanat (poterie, bijoux, instruments traditionnels) et restaurants proposant la cuisine géorgienne authentique.</li>
+          <li><strong>La cité troglodyte d'Ouplistsikhé</strong> — À 15 km à l'ouest, ce site archéologique fascinant compte plus de 700 grottes creusées dans la roche volcanique et a abrité jusqu'à 20 000 habitants. Excursion complémentaire idéale.</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Tbilissi</strong><span>20 km / 30 min de route</span></div>
+        <div class="modal-highlight"><strong>Classement UNESCO</strong><span>Inscrit depuis 1994</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Toute l'année</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>Demi-journée ou journée complète</span></div>
+        <div class="modal-highlight"><strong>Combinaison idéale</strong><span>Mtskhéta + Gori + Ouplistsikhé</span></div>
+        <div class="modal-highlight"><strong>Spécialité locale</strong><span>Mtsvadi (brochettes) sur les rives de la Koura</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>Mtskhéta se visite idéalement en demi-journée depuis Tbilissi, en combinant la cathédrale Svétitskhovéli et le monastère de Djvari. Intégrez-la systématiquement dans vos programmes comme étape incontournable — la vue du Djvari sur la confluence des deux fleuves reste l'une des plus belles de Géorgie.</p></div>`
+  },
+
+  svanetie: {
+    tag: "Aventure & Patrimoine",
+    title: "Svanétie",
+    img: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=85",
+    body: `
+      <h3>Le toit de la Géorgie</h3>
+      <p>La Svanétie est une région montagneuse nichée au cœur du Grand Caucase, dans le nord-ouest de la Géorgie. Isolée derrière ses remparts de neige pendant une bonne partie de l'année, elle a préservé mieux que toute autre région du pays ses traditions, sa langue et son architecture uniques. Les Svanes sont un peuple fier et accueillant, dont la culture séculaire est intimement liée aux montagnes qui les entourent. Les sommets qui dominent la Svanétie incluent le Chkhara (5 193 m), le plus haut sommet de Géorgie.</p>
+      <p>La Haute-Svanétie figure sur la Liste du patrimoine mondial de l'UNESCO depuis 1996. Son élément le plus distinctif : les <em>koshki</em>, ces tours de défense médiévales en pierre qui s'élèvent partout dans les villages — vestiges d'un temps où les familles devaient protéger leurs trésors et se réfugier en cas d'invasion.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>Mestia</strong> — Capitale de la Svanétie, point de départ de toutes les excursions. Musée d'histoire régionale, tours svanes, marché local et atmosphère de montagne authentique.</li>
+          <li><strong>Ouchgouli (UNESCO)</strong> — L'un des villages habités les plus hauts d'Europe (2 200 m), classé au patrimoine mondial. Ses tours médiévales et ses paysages enneigés en font l'image emblématique de la Svanétie. Accessible en 4x4 depuis Mestia (3-4h aller-retour).</li>
+          <li><strong>Le glacier de Chalaadi</strong> — Randonnée de 2h depuis Mestia jusqu'à un glacier facilement accessible, avec une rivière glaciaire et des paysages alpins spectaculaires.</li>
+          <li><strong>Les lacs Koruldi</strong> — À 2 700 m d'altitude, panorama à 360° sur les plus hauts sommets géorgiens et russes. Randonnée de niveau intermédiaire au départ de Mestia.</li>
+          <li><strong>La route Mestia–Ouchgouli</strong> — Le trajet en lui-même est une expérience : rivières, forêts denses, villages avec leurs tours, glaciers en toile de fond.</li>
+          <li><strong>Trekking multi-jours</strong> — La Svanétie offre certains des plus beaux sentiers de randonnée du Caucase, notamment le célèbre trek Mestia–Ushguli (4 jours).</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Tbilissi</strong><span>430 km / 9h de route ou vol Tbilissi–Mestia</span></div>
+        <div class="modal-highlight"><strong>Classement UNESCO</strong><span>Haute-Svanétie inscrite depuis 1996</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Juin–septembre (accès limité hors saison)</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>3 à 5 nuits minimum</span></div>
+        <div class="modal-highlight"><strong>Style hébergement</strong><span>Guesthouses familiales typiques</span></div>
+        <div class="modal-highlight"><strong>Point d'attention</strong><span>Routes parfois impraticables (pluies / neige)</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>La Svanétie est une destination qui demande une bonne planification logistique. Nous recommandons le vol Tbilissi–Mestia (15 min) à l'aller et la route panoramique au retour via Zougdidi (7h) pour profiter du paysage. Ne sous-estimez pas la durée de séjour : 4 nuits minimum pour découvrir Mestia ET Ouchgouli.</p></div>`
+  },
+
+  adjarie: {
+    tag: "Mer Noire & Culture",
+    title: "Adjarie & Batoumi",
+    img: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=85",
+    body: `
+      <h3>La perle de la mer Noire</h3>
+      <p>L'Adjarie (République Autonome d'Adjarie) est une région de contraste saisissant : à l'ouest, le littoral de la mer Noire avec Batoumi comme capitale animée et tournée vers la modernité ; à l'est, les montagnes du Petit Caucase couvertes de forêts subtropicales denses. Frontalière avec la Turquie, l'Adjarie a absorbé des influences ottomanes et islamiques qui se mêlent harmonieusement à la culture géorgienne chrétienne, donnant à la région une identité culturelle et gastronomique unique.</p>
+      <p>Batoumi elle-même est une ville fascinante, où l'architecture d'époque soviétique côtoie des gratte-ciels futuristes, des fontaines dansantes, et une promenade de bord de mer prisée des touristes géorgiens et étrangers. La <em>tour alphabétique</em> — célébrant l'alphabet géorgien — est devenue l'un des symboles modernes du pays.</p>
+      <h3>Les incontournables</h3>
+      <div class="modal-incontournables">
+        <ul>
+          <li><strong>La promenade de Batoumi</strong> — Boulevard de 7 km longeant la mer Noire, avec plages de galets, cafés en terrasse, vélos, cascades et sculptures contemporaines. Le soir, les fontaines lumineuses et musicales offrent un spectacle unique.</li>
+          <li><strong>Le vieux Batoumi</strong> — Quartier historique aux rues piétonnes, bâtiments Art Nouveau et baroque, maisons ottomanes restaurées et restaurants proposant la cuisine adjare authentique.</li>
+          <li><strong>Le Jardin botanique de Batoumi</strong> — L'un des plus riches du Caucase, créé en 1912. 108 hectares de plantes subtropicales en terrasses sur la mer Noire, avec une vue imprenable depuis les hauteurs.</li>
+          <li><strong>Le khachapuri adjare</strong> — Le plat emblématique de la région, une barque de pâte garnie de fromage fondu, beurre et œuf. Goûter à Batoumi, c'est une obligation culinaire !</li>
+          <li><strong>Gonio-Apsaros</strong> — Forteresse romaine du I<sup>er</sup> siècle av. J.-C., l'une des plus ancientes du Caucase, à quelques kilomètres de la frontière turque.</li>
+          <li><strong>Batoumi-Goderdzi (montagne)</strong> — À moins de 2h de Batoumi, une route serpente vers les alpages de Goderdzi (2 025 m), station de ski en hiver et paradis de randonnée en été, avec vue sur les Petits Caucase.</li>
+        </ul>
+      </div>
+      <h3>Informations pratiques</h3>
+      <div class="modal-highlights">
+        <div class="modal-highlight"><strong>Distance de Tbilissi</strong><span>390 km / 5h de route ou train de nuit</span></div>
+        <div class="modal-highlight"><strong>Meilleure période</strong><span>Juin–septembre (plage) / hiver (ski Goderdzi)</span></div>
+        <div class="modal-highlight"><strong>Spécialité culinaire</strong><span>Khachapuri adjare, poisson de mer Noire</span></div>
+        <div class="modal-highlight"><strong>Durée conseillée</strong><span>2 nuits minimum</span></div>
+        <div class="modal-highlight"><strong>Style hébergement</strong><span>Hôtels modernes en bord de mer</span></div>
+        <div class="modal-highlight"><strong>Combinaison idéale</strong><span>Batoumi + Kobuleti + Goderdzi</span></div>
+      </div>
+      <div class="blog-tip"><strong>💡 Conseil DMC</strong><p>Batoumi est l'étape idéale en fin de circuit pour clore un séjour culturel par quelques jours de détente au bord de la mer Noire. Le train de nuit Tbilissi–Batoumi (5h) est une expérience en soi, très appréciée des voyageurs. Recommandez-le à vos clients haut de gamme dans un wagon lit confortable.</p></div>`
   }
+};
+
+// ────────────────────────────────────────────────
+// DATA ARTICLES BLOG
+// ────────────────────────────────────────────────
+const articles = {
+  tbilissi3j: {
+    img: "https://images.unsplash.com/photo-1555990538-1e8f3e4f0200?w=1200&q=85",
+    body: `
+      <div class="blog-cat">🏛️ Culture & Patrimoine</div>
+      <h1>Tbilissi en 3 jours : l'itinéraire culturel idéal pour vos clients</h1>
+      <div class="blog-modal-meta">
+        <span style="font-size:.82rem;color:#999;">📅 Mars 2025</span>
+        <span style="font-size:.82rem;color:#999;">⏱ 8 min de lecture</span>
+        <span style="font-size:.82rem;color:var(--rouge);">Par l'équipe Destination Géorgie</span>
+      </div>
+      <p>Tbilissi est l'une des capitales les plus singulières d'Europe : entre Orient et Occident, entre passé millénaire et modernité audacieuse. Voici notre itinéraire optimisé sur 3 jours, conçu pour les agences proposant un premier séjour culturel haut de gamme dans la capitale géorgienne.</p>
+
+      <h2>Jour 1 — La vieille ville et les bains sulfureux</h2>
+      <h3>Matin : Plongée dans la vieille ville (Dzveli Tbilisi)</h3>
+      <p>Commencez la visite par la vieille ville historique, un labyrinthe de ruelles pavées et de cours intérieures fleuries. Le quartier de Kala, cœur de l'ancienne Tbilissi, regorge de maisons traditionnelles aux célèbres balcons de bois sculpté, véritable signature architecturale de la ville. Depuis l'époque de l'ancienne route de la Soie, Tbilissi a toujours été un carrefour de cultures et de religions, et vous pouvez le sentir en marchant : une église orthodoxe du VI<sup>e</sup> siècle voisine avec une synagogue, une mosquée et une église arménienne dans un rayon de 200 mètres.</p>
+      <p>Remontez vers la <strong>place Orbeliani</strong>, rénovée avec soin, dont les façades restaurées et les fresques intérieures retrouvées sont l'une des réussites architecturales récentes de la mairie. Arrêtez-vous ensuite à la <strong>tour de l'horloge du théâtre Rezo Gabriadze</strong>, penchée comme dans un conte de fées et dont les automates animent le cadran toutes les heures.</p>
+
+      <h3>Après-midi : Forteresse de Narikala et quartier d'Abanotubani</h3>
+      <p>Rejoignez la <strong>forteresse de Narikala</strong> en téléphérique depuis le parc Rikhe : vue panoramique à 360° sur l'ensemble de la capitale. Depuis les remparts du IV<sup>e</sup> siècle, la silhouette de Tbilissi se révèle dans toute sa complexité. Descendez ensuite vers <strong>Abanotubani</strong>, le quartier des bains sulfureux. Les dômes en brique de briques caractéristiques, construits sur des sources d'eaux chaudes naturelles, constituent le quartier le plus pittoresque de la ville. L'<strong>Orbeliani Bathhouse</strong>, avec sa façade de mosaïque bleue d'inspiration perse, est l'icône du quartier. Une séance aux bains privés — avec gommage et massage — est une expérience incontournable à intégrer au programme.</p>
+
+      <div class="blog-tip"><strong>💡 Conseil pro</strong><p>Réservez une session de bains privés à l'avance (1h30 minimum, 30-50 € par personne). Les bains Chreli Abano et Gulo's Thermal Spa offrent des prestations haut de gamme très appréciées des voyageurs français.</p></div>
+
+      <h3>Soirée : Dîner supra géorgien</h3>
+      <p>Offrez à vos clients un vrai <em>supra</em> géorgien traditionnel dans l'un des restaurants de la vieille ville : longue table couverte de dizaines de mets, vin géorgien servi en corne, toasts rituels menés par le tamada et, si possible, chants polyphoniques en live. Un moment de convivialité et de culture inoubliable.</p>
+
+      <h2>Jour 2 — Hauteurs et musées</h2>
+      <h3>Matin : Mont Mtatsminda et panorama</h3>
+      <p>Prenez le <strong>funiculaire historique</strong> (inauguré en 1905) jusqu'au mont Mtatsminda pour une vue imprenable sur l'ensemble de la capitale. En chemin, un arrêt intermédiaire permet de visiter le <strong>Panthéon de Mtatsminda</strong>, où reposent Ilia Tchavtchavadzé et d'autres grandes figures de la culture géorgienne. Au sommet, café ou brunch dans un restaurant avec terrasse panoramique.</p>
+
+      <h3>Après-midi : Musée national et quartiers modernes</h3>
+      <p>Consacrez l'après-midi au <strong>Musée national de Géorgie</strong> sur l'avenue Rustaveli : 8 000 ans d'histoire en une visite, dont le fascinant trésor d'or (bijoux et artefacts datant de l'Âge du Bronze) et la section sur l'occupation soviétique, très bien documentée. Terminez par une promenade sur <strong>l'avenue Rustaveli</strong> — les Champs-Élysées géorgiens — jusqu'à la <strong>place de la Liberté</strong>, puis traversez le <strong>pont de la Paix</strong> (structure de verre illuminée la nuit) vers le parc Rikhe.</p>
+
+      <h2>Jour 3 — Excursion à Mtskhéta et découverte des saveurs</h2>
+      <h3>Matin : Mtskhéta et le monastère de Djvari</h3>
+      <p>À seulement 20 km de Tbilissi, <strong>Mtskhéta</strong> s'impose comme une excursion incontournable. Visitez la cathédrale <strong>Svétitskhovéli</strong> (XI<sup>e</sup> siècle, UNESCO) et son pilier vivifiant, puis montez en voiture jusqu'au monastère de <strong>Djvari</strong> (VI<sup>e</sup> siècle, UNESCO) pour un point de vue exceptionnel sur la confluence des deux fleuves. La scène rappelle étrangement les paysages que décrit Lermontov dans « Un héros de notre temps » — l'écrivain russe y situa le début de son roman.</p>
+
+      <h3>Après-midi : Marché des antiquités et dernières emplettes</h3>
+      <p>De retour à Tbilissi, flânez au <strong>marché des antiquités du Pont Sec</strong> (Dry Bridge Market) — un marché en plein air fascinant où se côtoient objets soviétiques, antiquités caucasiennes, peintures de Pirosmani, bijoux artisanaux et curiosités de toutes sortes. Un endroit unique pour des achats authentiques et des souvenirs qui ont du sens.</p>
+      <div class="blog-tip"><strong>💡 Hébergement recommandé</strong><p>Pour une clientèle haut de gamme, privilégiez les boutique-hôtels de la vieille ville ou du quartier de Sololaki : Fabrika Design Hotel, Rooms Hotel Tbilisi ou le Stamba Hotel (dans une ancienne imprimerie soviétique) offrent des expériences architecturales mémorables à des tarifs compétitifs.</p></div>`
+  },
+
+  kakhetievin: {
+    img: "https://images.unsplash.com/photo-1548197618-90fbf4c048e3?w=1200&q=85",
+    body: `
+      <div class="blog-cat">🍷 Œnotourisme</div>
+      <h1>La Kakhétie, paradis mondial du vin en amphore (qvevri)</h1>
+      <div class="blog-modal-meta">
+        <span style="font-size:.82rem;color:#999;">📅 Février 2025</span>
+        <span style="font-size:.82rem;color:#999;">⏱ 10 min de lecture</span>
+        <span style="font-size:.82rem;color:var(--rouge);">Par l'équipe Destination Géorgie</span>
+      </div>
+      <p>La Géorgie est le plus ancien pays viticole du monde. Des archéologues ont mis au jour des pépins de raisin carbonisés et des traces de vinification datant de 6 000 ans avant notre ère dans la région de Kakhétie. Pour les agences spécialisées dans l'œnotourisme ou le tourisme gastronomique haut de gamme, cette région offre une expérience absolument unique au monde.</p>
+
+      <h2>Le qvevri : un procédé millénaire inscrit à l'UNESCO</h2>
+      <p>La grande originalité du vin géorgien réside dans la méthode de vinification : les raisins sont fermentés et vieillis dans des <strong>qvevri</strong>, de grandes amphores en terre cuite recouvertes de cire d'abeille et enfouies dans le sol. Cette technique immémoriale permet une fermentation naturelle en anaérobie à température constante. Les vins blancs obtenus (notamment avec les cépages Rkatsiteli ou Mtsvane) sont vinifiés avec les peaux, les pépins et les rafles — donnant des vins dits « orange » ou « ambrés », riches en tanins et en arômes, totalement différents des vins blancs conventionnels.</p>
+      <p>La vinification traditionnelle en qvevri a été inscrite au <strong>patrimoine culturel immatériel de l'UNESCO en 2013</strong>, reconnaissant ainsi l'importance de cette pratique pour l'humanité. Aujourd'hui, plusieurs centaines de cépages différents sont encore cultivés en Kakhétie, contre une vingtaine dans la plupart des régions viticoles mondiales.</p>
+
+      <h2>Les domaines incontournables</h2>
+      <h3>Téliani Valley</h3>
+      <p>L'un des plus grands domaines modernes de Kakhétie, situé près de Telavi. Chai contemporain, vignobles en terrasses, restaurant gastronomique avec vue sur la vallée de l'Alazani et dégustation de cuvées haut de gamme. Idéal pour une approche professionnelle et structurée de l'œnotourisme géorgien.</p>
+
+      <h3>Château Mere</h3>
+      <p>Domaine familial proposant une expérience authentique de vinification en qvevri, avec visite des caves, explication des techniques ancestrales et dégustation de vins ambrés exceptionnels. L'accueil chaleureux et la table familiale complètent une visite mémorable.</p>
+
+      <h3>Marani de Kvareli</h3>
+      <p>Les caves de Kvareli, creusées dans la roche à plusieurs centaines de mètres de profondeur, sont parmi les plus impressionnantes de Géorgie. Temperature constante, galeries spectaculaires et collection de vins rares font de cette visite un moment d'anthologie.</p>
+
+      <h2>Sighnaghi, la ville d'amour</h2>
+      <p>Sighnaghi est sans conteste la ville la plus romantique de Géorgie. Perchée sur ses remparts du XVIII<sup>e</sup> siècle (9 km de murailles parfaitement conservées), elle offre un panorama exceptionnel sur la plaine de l'Alazani et, par temps clair, sur les sommets enneigés du Caucase au-delà. Ses rues pavées, ses maisons colorées aux balcons fleuris et ses petits hôtels boutique en font l'hébergement parfait pour une nuit de charme en Kakhétie.</p>
+      <p>Ne manquez pas le <strong>musée régional de Sighnaghi</strong>, qui abrite une collection remarquable d'œuvres du peintre naïf géorgien Niko Pirosmani (1862–1918), figure majeure de l'art primitif du Caucase.</p>
+
+      <div class="blog-tip"><strong>🗓 Conseil saisonnier</strong><p>La <strong>Rtveli</strong> — la saison des vendanges — se déroule chaque année en septembre-octobre. C'est la meilleure période pour vivre la Kakhétie de l'intérieur : récolte des raisins à la main dans les vignes, foulage traditionnel au pied nu dans les tonnes, supra de fin de vendanges avec les vignerons. Une expérience d'immersion totale que vos clients n'oublieront jamais.</p></div>
+
+      <h2>La gastronomie kakhétienne</h2>
+      <p>La cuisine de Kakhétie est indissociable de son terroir viticole. Les plats mijotés au feu de bois, les viandes marinées dans le vin et les légumes du jardin se marient parfaitement aux vins ambrés locaux. Quelques incontournables à proposer à vos clients :</p>
+      <ul>
+        <li><strong>Khashlama</strong> — Ragoût de mouton aux herbes et aux légumes, mijoté des heures dans son bouillon, servi dans des terrines en terre cuite</li>
+        <li><strong>Chakapuli</strong> — Ragoût printanier d'agneau à l'estragon et au tkemali (prune verte), parfumé et délicat</li>
+        <li><strong>Churchkhela</strong> — Collier de noix plongées dans un jus de raisin épaissi au maïs, séché au soleil : le « snickers » géorgien</li>
+        <li><strong>Badrijani nigvzit</strong> — Tranches d'aubergine frites garnies d'une pâte de noix à l'ail et aux herbes</li>
+      </ul>
+      <div class="blog-tip"><strong>💡 Programme suggéré</strong><p>Pour une clientèle œnotouristique haut de gamme, nous recommandons un séjour de 3 nuits en Kakhétie : nuit 1 à Telavi avec visite d'un grand domaine, nuit 2 à Sighnaghi (expérience romantique), nuit 3 dans un marani familial pour une immersion totale dans la vinification artisanale.</p></div>`
+  },
+
+  kazbegi: {
+    img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=85",
+    body: `
+      <div class="blog-cat">⛰️ Nature & Aventure</div>
+      <h1>Kazbegi : organiser un séjour au pied du Grand Caucase</h1>
+      <div class="blog-modal-meta">
+        <span style="font-size:.82rem;color:#999;">📅 Janvier 2025</span>
+        <span style="font-size:.82rem;color:#999;">⏱ 9 min de lecture</span>
+        <span style="font-size:.82rem;color:var(--rouge);">Par l'équipe Destination Géorgie</span>
+      </div>
+      <p>Si la Géorgie ne devait offrir qu'un seul paysage à la mémoire du voyageur, ce serait sans doute celui-là : l'église de Guerguéti, seule sur son rocher à 2 170 mètres d'altitude, avec en toile de fond le mont Kazbek enneigé culminant à 5 047 mètres. Cette image est devenue le symbole de la Géorgie entière. Voici notre guide complet pour organiser un séjour réussi à Kazbegi pour vos clients.</p>
+
+      <h2>La Route Militaire Géorgienne : un trajet qui vaut le voyage</h2>
+      <p>Le voyage vers Kazbegi commence bien avant d'arriver. La <strong>Route Militaire Géorgienne</strong> (161 km depuis Tbilissi) traverse l'un des paysages les plus spectaculaires du Caucase. Tracée au début du XIX<sup>e</sup> siècle par l'armée impériale russe pour relier la Transcaucasie à la Russie, elle serpente à travers des gorges vertigineuses, des forêts de hêtres et de pins, puis des alpages et des paysages quasi lunaires à mesure que l'altitude augmente. Prévoyez 3h30 à 4h de route en incluant les arrêts.</p>
+
+      <h3>Les arrêts incontournables sur la route</h3>
+      <ul>
+        <li><strong>La forteresse d'Ananouri et le lac de Jinvali</strong> — À 60 km de Tbilissi, cette forteresse du XVII<sup>e</sup> siècle au bord du lac artificiel de Jinvali est un premier arrêt photo fantastique. Reflets des tours dans l'eau turquoise, vue sur les montagnes environnantes.</li>
+        <li><strong>Pasanaouri</strong> — Village à la confluence de deux rivières, réputé pour ses khinkali. Arrêt déjeuner idéal pour une introduction à la cuisine géorgienne de montagne.</li>
+        <li><strong>Gudauri (2 196 m)</strong> — Station de ski moderne avec 60 km de pistes entre 1 990 et 3 279 m. Vue sur le col du Jvari et les glaciers environnants.</li>
+        <li><strong>L'Arche d'Amitié russo-géorgienne</strong> — Belvédère spectaculaire sur la route avec une vue plongeante sur la vallée de l'Aragvi et les villages en contrebas.</li>
+        <li><strong>Le col du Jvari (2 395 m)</strong> — Dernier col avant la descente sur Kazbegi. Par temps clair, le Kazbek apparaît soudainement dans toute sa majesté. Moment de grâce garanti.</li>
+      </ul>
+
+      <h2>L'église Guerguéti (Tsminda Sameba) : l'icône absolue</h2>
+      <p>L'église de la Trinité de Guerguéti (XIV<sup>e</sup> siècle) est l'attraction principale de la région. Elle se dresse sur un éperon rocheux à 2 170 mètres d'altitude, dans un isolement dramatique qui la rend encore plus impressionnante. Deux façons d'y accéder selon le profil de vos clients :</p>
+      <ul>
+        <li><strong>À pied</strong> — Randonnée de 3h aller-retour depuis la ville de Stepantsminda. Sentier bien balisé, dénivelé de 650 m. Niveau intermédiaire. Vue progressivement dévoilée tout au long de la montée.</li>
+        <li><strong>En 4x4</strong> — Pour les clients moins sportifs ou par mauvais temps. Piste tout-terrain accessible en environ 20 minutes. Nos chauffeurs locaux connaissent la route parfaitement.</li>
+      </ul>
+      <div class="blog-tip"><strong>📷 Conseil photo</strong><p>Le meilleur moment pour photographier l'église Guerguéti avec le Kazbek en arrière-plan est tôt le matin, avant 10h, lorsque le ciel est encore dégagé et la lumière douce. En après-midi, des nuages apparaissent souvent et masquent le sommet. Prévoyez la montée à l'aube pour vos clients photographes.</p></div>
+
+      <h2>La vallée de Trusso : le secret de Kazbegi</h2>
+      <p>Moins connue des touristes, la <strong>vallée de Trusso</strong> est l'excursion coup de cœur de notre équipe. À 15 km à l'est de Stepantsminda, cette vallée d'altitude (2 000–2 500 m) abrite des paysages étranges et envoûtants : sources minérales aux dépôts ocre et rouille, ruines de villages abandonnés lors de la déportation staliniennes, forteresses médiévales en ruines et torrents d'une eau d'une pureté cristalline. Une excursion en 4x4 de demi-journée qui offre une expérience radicalement différente de la montée à l'église.</p>
+
+      <h2>Pour les randonneurs : Juta et la vallée de Chaukhi</h2>
+      <p>Les clients amateurs de randonnée apprécieront la <strong>vallée de Juta</strong>, accessible depuis Stepantsminda (45 min en 4x4). Depuis le village de Juta (2 150 m), un sentier de 3h mène au col de Chaukhi avec une vue époustouflante sur les aiguilles de Chaukhi — une formation granitique qui rappelle les Dolomites ou les aiguilles de Chamonix. L'une des plus belles randonnées de Géorgie.</p>
+
+      <h2>Hébergement et séjour</h2>
+      <p>Nous recommandons <strong>2 nuits minimum</strong> à Stepantsminda pour profiter pleinement de la région. L'hébergement en guesthouse familiale est une expérience en soi : petit-déjeuner maison, cuisine géorgienne authentique, échanges avec les familles svanes et montagnards. Pour une clientèle haut de gamme, quelques établissements proposent un niveau de confort supérieur avec vue directe sur le Kazbek.</p>
+      <div class="blog-tip"><strong>⚠️ Point d'attention logistique</strong><p>La Route Militaire Géorgienne peut être temporairement fermée en cas de fortes chutes de neige (novembre à mars) ou d'éboulements. Nous conseillons toujours à nos clients de voyager avec notre agence qui suit en temps réel l'état des routes et dispose de solutions alternatives (hélicoptère, itinéraires de déviation) en cas d'imprévu.</p></div>`
+  }
+};
+
+// ────────────────────────────────────────────────
+// FONCTIONS JS
+// ────────────────────────────────────────────────
+function openRegion(id) {
+  const r = regions[id];
+  if (!r) return;
+  document.getElementById('region-modal-img').src = r.img;
+  document.getElementById('region-modal-tag').textContent = r.tag;
+  document.getElementById('region-modal-title').textContent = r.title;
+  document.getElementById('region-modal-body').innerHTML = r.body;
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function openBlog(id) {
+  const a = articles[id];
+  if (!a) return;
+  document.getElementById('blog-modal-img').src = a.img;
+  document.getElementById('blog-modal-body').innerHTML = a.body;
+  document.getElementById('blog-modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeAllModals() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.getElementById('blog-modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModals(e) {
+  if (e.target === document.getElementById('modal-overlay')) closeAllModals();
+}
+function closeBlogModal(e) {
+  if (e.target === document.getElementById('blog-modal-overlay')) closeAllModals();
+}
+
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeAllModals(); });
+
+// Reveal on scroll
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((e,i) => { if(e.isIntersecting) setTimeout(()=>e.target.classList.add('visible'),i*80); });
+},{threshold:.1});
+reveals.forEach(el=>obs.observe(el));
+
+// Active nav
+const sections = document.querySelectorAll('section[id]');
+const links = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll',()=>{
+  let cur='';
+  sections.forEach(s=>{ if(window.scrollY>=s.offsetTop-120) cur=s.id; });
+  links.forEach(a=>{ a.classList.remove('active'); if(a.getAttribute('href')==='#'+cur) a.classList.add('active'); });
+});
+
+function submitForm(){
+  const t=document.getElementById('toast');
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),4000);
+}
 </script>
 </body>
 </html>
